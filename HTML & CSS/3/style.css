@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+
+/* Стилі до завдання 3.1 */
+
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: aqua;
+  margin: 20px auto;
+}
+
+.big-box {
+  width: 340px;
+  height: 190px;
+  margin: 20px auto;
+}
+
+.small-box {
+  margin: 0 auto;
+}
+
+.yellow-bg {
+  background: yellow;
+}
+
+.stroke-1 {
+  border: 5px dashed red;
+}
+
+.stroke-2 {
+  outline: 5px dotted red;
+  outline-offset: -5px;
+}
+
+.stroke-3 {
+  border: 20px solid darkblue;
+  border-right-color: blue;
+  border-bottom-color: blue;
+}
+
+.stroke-4 {
+  border-left: 10px solid black;
+  border-spacing: 10px;
+}
+
+/* Стилі до завдання 3.2 */
+/* Загальні стилі для 4-х основних рядків блоків */
+.main-block {
+  width: 900px;
+  min-height: 150px;
+  margin: 0 auto;
+  background-color: #faebd7;
+  text-align: center;
+}
+
+.main-block::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+/* Рядок 1 блок хедер*/
+.header {
+  padding: 40px 100px;
+}
+
+.header-block-outside-of-text {
+  background-color: #d2b48c;
+  padding: 20px 0px;
+}
+
+.header-block-text {
+  background-color: #fffff0;
+  width: 300px;
+  height: 40px;
+  margin: 0px auto;
+}
+
+/*Рядок 2 блок меню*/
+.menu {
+  width: 180px;
+  height: 150px;
+}
+
+#menu-item-1 {
+  background-color: #5f9ea0;
+}
+
+#menu-item-2 {
+  background-color: #6495ed;
+}
+
+#menu-item-3 {
+  background-color: #f5deb3;
+}
+
+#menu-item-4 {
+  background-color: #f08080;
+}
+
+#menu-item-5 {
+  background-color: #4b0082;
+}
+
+/* Рядок 3 блок контенту */
+.content {
+  background-color: #008000;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+/* Для 3-х стовбців контенту*/
+.content-block {
+  width: 300px;
+  height: 350px;
+}
+
+/* Стовбчик контент 3.1 лівий */
+.content-block-left {
+  padding: 0px 60px;
+}
+
+.content-block-text {
+  background: #c0c0c0;
+  vertical-align: middle;
+  height: 70px;
+  margin: 10px auto;
+}
+.content-block-3 {
+  background: #8b0000;
+  height: 70px;
+  width: 160px;
+  margin: 20px auto 0;
+}
+.content-block-4-5 {
+  margin: 0px auto;
+  height: 180px;
+  max-width: 160px;
+}
+
+#content-block-4 {
+  background: #fa8072;
+  width: 50%;
+}
+
+#content-block-5 {
+  background: #bdb76b;
+  width: 50%;
+}
+
+/* Стовбчик контент 3.2 центральний */
+.content-block-A {
+  background: #008080;
+  height: 10%;
+}
+
+.content-block-BCD {
+  height: 90%;
+}
+
+.content-block-B {
+  background: #66cdaa;
+  height: 60%;
+}
+
+.content-block-B1 {
+  background: #a52a2a;
+  width: 50%;
+  height: 75%;
+  margin-top: -110px;
+}
+
+.content-block-B2 {
+  background: #adff2f;
+  width: 50%;
+  height: 40%;
+}
+
+.content-block-C {
+  background: #add8e6;
+  height: 25%;
+}
+
+.content-block-C2 {
+  background: #00008b;
+}
+
+.content-block-C3 {
+  background: #8b008b;
+}
+
+.content-block-C4 {
+  background: #fdf5e6;
+  width: 50%;
+}
+
+.content-block-C5 {
+  background: #fa8072;
+  width: 50%;
+}
+
+.content-block-D {
+  background: #40e0d0;
+  height: 25%;
+}
+
+.content-block-D1 {
+  background: #008080;
+  height: 25%;
+}
+
+.content-block-D3 {
+  background: #ffdead;
+  height: 50%;
+}
+
+/* Стовбчик контент 3.3 правий */
+.content-block-right-row1 {
+  height: 10%;
+}
+
+.content-block-right-row1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-block-I {
+  background: #8fbc8f;
+  height: 100%;
+}
+
+.content-block-II {
+  background: #da70d6;
+  height: 100%;
+}
+
+.content-block-III {
+  background: #ff7f50;
+  height: 100%;
+}
+
+.content-block-right-row2-IV {
+  background: #faf0e6;
+  height: 15%;
+  padding: 5% 0;
+}
+
+.content-block-V {
+  background: #ff0000;
+  height: 25px;
+  width: 40%;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+
+.in-red-block {
+  background: #000;
+  height: 5px;
+  width: 20%;
+  margin: 0px auto;
+}
+
+.content-block-right-row3-VI {
+  background: #dcdcdc;
+  height: 15%;
+}
+
+.content-block-right-row4 {
+  height: 60%;
+}
+
+.content-block-right-row4-col1-VII {
+  background: #2f4f4f;
+  height: 100%;
+}
+
+.content-block-right-row4-col2 {
+  width: 200px;
+  height: 100%;
+}
+
+.content-block-VIII {
+  background: #708090;
+  height: 33%;
+}
+
+.content-block-IX-X {
+  height: 33%;
+}
+
+.content-block-IX-X::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-block-IX {
+  background: #8a2be2;
+  width: 50%;
+  height: 100%;
+}
+
+.content-block-X {
+  background: #fafad2;
+  width: 50%;
+  height: 100%;
+}
+
+.content-block-XI {
+  background: #dda0dd;
+  height: 34%;
+}
+
+/* Рядок 4 блок футер */
+.footer {
+  background-color: #696969;
+}
